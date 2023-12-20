@@ -1,7 +1,11 @@
-import Msg from "./Msg";
-import List from "./components/list";
+import "./App.css";
+import NavBar from "./components/navigation";
 
-function App(){
-return <div><List/></div>
+function App() {
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 export default App;
